@@ -1,0 +1,61 @@
+
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  width:285px;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 110px;
+  left: 275px;
+  height: 500px;
+  width: 5px;
+  background-color: yellow;
+}
+
+.sidetext {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 0px 80px 50px;
+}
+
+.side-btn {
+  font-family: NovaFlat;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.btnbase {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.side-btn:hover {
+  font-size: 35px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.logos img {
+  margin-right: 20px;
+}
+
+.activeBtn{
+  color: yellow;
+  font-size: 40px;
+}

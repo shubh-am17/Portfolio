@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  margin-left:20px;
+  margin-top: 50px;
+  height: 90vh;
+}
+
+p {
+  font-family: NovaFlat;
+  color: white;
+  width: 80%;
+  font-size: 20px;
+}
+.about p{
+  margin-top: 100px;
+
+}
+
+.h6 {
+  font-size: 20px;
+  display: inline;
+  margin: 0;
+  color: yellow;
+}
